@@ -1,0 +1,18 @@
+01/8/2023.
+linux for hackers ep.4 
+
+1.CREATING A NEW USER.
+to create a new user we will need: adduser (name of the user )
+also, remmeber to use sudo adduser "thor".
+
+2. HOW TO FIND USERS IN INUX.
+cat /etc/passwd
+
+thor:x:1002:1005:thor,,,:/home/thor:/bin/bash
+x indicates that the password is in the shadow file
+
+3. SHADOW FILES 
+sudo cat /etc/shadow  
+ 
+randomm note: when we create a user in linux we create a user and a group.
+ thor user thor group
